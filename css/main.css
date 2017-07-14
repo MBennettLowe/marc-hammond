@@ -1,9 +1,44 @@
 /*reset  */
-body, h1, h2 {
+body, html, h1, h2 {
 	padding: 0%;
 	margin: 0%;
+
+}
+
+body {
+	font: normal 100%/1.5 sans-serif;
 }
 
 header {
-	text-align: center;
+	padding: 40px;
 }
+
+header h1 {
+	text-align: left;
+	font-size: 2em;
+	color: white;
+}
+
+#left {
+	background-image: url("../assets/images/marc-hammond.jpg");
+	background-image: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 50em;
+	height: 100px;
+	width: 50%;
+}
+
+section {
+	display: flex;
+}
+
+#right h1 {
+color: ;
+font-size 44px;
+font-weight: 300;
+
+
+}
+
+
