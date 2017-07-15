@@ -9,6 +9,10 @@ body {
 	font: normal 100%/1.5 sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 header {
 	padding: 40px;
 }
@@ -38,7 +42,33 @@ color: ;
 font-size 44px;
 font-weight: 300;
 
+}
+
+#right p {
+	max-width: 65%;
+}
+
+#right p img {
+	max-height: 32px;
+	margin-bottom: -7px;
 
 }
 
+#right li {
+	display: inline;
+}
+
+#right li a {
+	color: lightgray;
+}
+
+#right li a:hover {
+	color: #252525;
+}
+
+#right ul {
+	display: flex;
+	justify-content: space-between;
+	width: 30px;
+}
 
